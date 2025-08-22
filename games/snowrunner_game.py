@@ -11,19 +11,8 @@ from ..game import Game
 from ..game_objective_template import GameObjectiveTemplate
 
 from ..enums import KeymastersKeepGamePlatforms
-
-
+    
 # Option Dataclass
 @dataclass
-class TinyBookshopArchipelagoOptions:
+class TemplateArchipelagoOptions:
     pass
-
-# Main Class
-class SnowrunnerGame(Game):
-    name = "Snowrunner"
-    platform = KeymastersKeepGamePlatforms.PC
-    
-    platforms_other = [
-        KeymastersKeepGamePlatforms.
-    ]
-    
