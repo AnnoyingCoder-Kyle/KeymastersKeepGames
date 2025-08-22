@@ -16,3 +16,21 @@ from ..enums import KeymastersKeepGamePlatforms
 @dataclass
 class TemplateArchipelagoOptions:
     pass
+
+# Main Class
+class TemplateGame(Game):
+    name = "Template"
+    platform = KeymastersKeepGamePlatforms.PC
+
+    platforms_other = [
+        KeymastersKeepGamePlatforms.PS4,
+        KeymastersKeepGamePlatforms.XONE,
+        KeymastersKeepGamePlatforms.SW,
+        KeymastersKeepGamePlatforms.PS5,
+        KeymastersKeepGamePlatforms.XSX,
+    ]
+
+    is_adult_only_or_unrated = False
+
+    options_cls = TemplateArchipelagoOptions
+    
