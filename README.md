@@ -2,7 +2,7 @@
 Keymaster's Keep games maintained by AnnoyingCoder
 
 # Games Included
-- Monster Hunter World: The Board Game [Objectives](#Monster-Hunter-World:-The-Board-Game)
+- Monster Hunter World: The Board Game | [Objectives](#monster-hunter-world-the-board-game)
 
 # Game Objectives
 ## Monster Hunter World: The Board Game
