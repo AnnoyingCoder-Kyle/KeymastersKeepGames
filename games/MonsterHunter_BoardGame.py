@@ -15,7 +15,7 @@ from ..enums import KeymastersKeepGamePlatforms
 # Option Dataclass
 @dataclass
 class TemplateArchipelagoOptions:
-    mh_expansions_owned: MH_Board_Game_Expansions_Owned
+    mh_expansions_owned: Monster_Hunter_World_Board_Game_Expansions_Owned
 
 # Main Class
 class MonsterHunterBoardGame(Game):
@@ -297,3 +297,18 @@ class MonsterHunterBoardGame(Game):
         return difficulties
     
     
+class Monster_Hunter_World_Board_Game_Expansions_Owned(OptionSet):
+    """
+    Indicates which Monster Hunter: Board Game expansions the player has, if any.
+    """
+    
+    display_name = "Monster Hunter: Board Game Expansions Owned"
+    valid_keys = [
+        "Wildspire Wastes",
+        "Kulu-Ya-Ku",
+        "Teostra",
+        "Nergigante",
+        "Kushala Daora",
+    ]
+    
+    default = valid_keys
