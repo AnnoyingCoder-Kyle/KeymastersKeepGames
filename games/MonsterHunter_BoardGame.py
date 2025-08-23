@@ -19,7 +19,7 @@ class TemplateArchipelagoOptions:
 
 # Main Class
 class TemplateGame(Game):
-    name = "Template"
+    name = "Monster Hunter: The Board Game"
     platform = KeymastersKeepGamePlatforms.PC
 
     platforms_other = [
@@ -34,3 +34,8 @@ class TemplateGame(Game):
 
     options_cls = TemplateArchipelagoOptions
     
+    def optional_game_constraint_templates(self) -> List[GameObjectiveTemplate]:
+    return [
+        # game constraint templates will go here
+        
+    ]
