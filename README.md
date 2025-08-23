@@ -1,2 +1,2 @@
 # KeymastersKeepGames
-python files for Keymasters Keep for Archipelago multigame randomizer
+Keymaster's Keep games by AnnoyingCoder
